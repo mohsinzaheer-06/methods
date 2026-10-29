@@ -1,0 +1,42 @@
+# method in list used by variable(.)
+# Day 1
+a = [ 2,4,6,8.10]
+b = [1,3,5,7,9,11]
+c = [1,2,4,8,16,32]
+d = ["Mohsin", "Ali"," Hussain"]
+
+# a.append(250)
+# a.insert(2,"Zaheer")
+# a.remove(10)
+# print(a)
+
+# Day 2
+# Clears all the value 
+# a.clear()
+# print(a,b)
+
+# Extend Adds to variables
+# a.extend(d)
+# print(a)
+
+# Reverse Starts the value from the end
+# a.reverse()
+# c.reverse()
+# print(a)
+# print(c)
+# print(a,b,c)
+
+# Copy it creates a shallow copy of the data that can be stored seperately in a refrence e,g. b=a
+
+# g = a.copy()
+# g.append(210)
+# g.insert(2, "Ahsan")
+# print(g)
+
+# indexing  + slicing == [Start : stop : Step] all three statements are optional not dependent
+
+print(c[2:5])
+print(a[0: :2]) #Make sure the format is correct for the accurate results
+print(b[1:4:2]) 
+
+
